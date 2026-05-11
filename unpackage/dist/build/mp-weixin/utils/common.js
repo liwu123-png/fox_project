@@ -1,0 +1,1 @@
+"use strict";exports.formatTimeDiff=function(r){const t=Date.now()-r,e=6e4,f=36e5,o=864e5,n=2592e6;if(t<e)return"1分钟";if(t<f){return`${Math.floor(t/e)}分钟`}if(t<o){return`${Math.floor(t/f)}小时`}if(t<n){return`${Math.floor(t/o)}天`}if(t<7776e6){return`${Math.floor(t/n)}月`}return null};
